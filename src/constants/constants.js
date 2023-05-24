@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: "Zest",
+    description: "Recipe app to find you favorite recipes",
+    image: "/images/recipeApp.png",
+    tags: ["React", "Api", "Node", "Express"],
+    source: "http://zest.herokuapp.com/",
+    visit: "https://github.com/ctrenfro/zest",
+    id: 0,
+  },
+  {
     title: "Sanity eCommerce",
     description: "Simple ecommerce site built with sanity and stripe.",
     image: "/images/ecommerce.png",
     tags: ["Sanity", "Stripe", "Nextjs", "Node"],
     source: "https://ecommerce-sanity-r5ek846ij-ctrenfro.vercel.app/",
     visit: "https://github.com/ctrenfro/ecommerce_sanity",
-    id: 0,
+    id: 1,
   },
   {
     title: "OpenAI's GPT3 AI",
@@ -15,7 +24,7 @@ export const projects = [
     tags: ["React", "JavaScript, nodejs"],
     source: "https://gpt3api.herokuapp.com/",
     visit: "https://github.com/ctrenfro/GPT3",
-    id: 1,
+    id: 2,
   },
   {
     title: "3 Day Forecast",
@@ -24,7 +33,7 @@ export const projects = [
     tags: ["React"],
     source: "http://ctrenfro.github.io/WeatherApp",
     visit: "https://github.com/ctrenfro/WeatherApp",
-    id: 2,
+    id: 3,
   },
   {
     title: "Calculator App",
@@ -33,7 +42,7 @@ export const projects = [
     tags: ["React"],
     source: "https://ctrenfro.github.io/calculator/",
     visit: "https://github.com/ctrenfro/calculator",
-    id: 3,
+    id: 4,
   },
   {
     title: "Caffeine Cafe",
@@ -42,15 +51,6 @@ export const projects = [
     tags: ["Wordpress", "mooCommerce"],
     source: "https://caffeinecafe.in/",
     visit: null,
-    id: 4,
-  },
-  {
-    title: "YourPlaces",
-    description: "My first Mern project.",
-    image: "/images/Picture1.jpg",
-    tags: ["React", "MongoDB", "nodejs", "express"],
-    source: "http://ctrenfro.github.io/mernProject",
-    visit: "https://github.com/ctrenfro/mernProject",
     id: 5,
   },
 ];
