@@ -1,5 +1,4 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import {
   Section,
   SectionDivider,
@@ -25,20 +24,18 @@ const Technologies = () => (
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js <br />
             Html <br />
             Css <br />
-            Javascript
+            Javascript <br />
+            Typescript <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiFirebase size="3rem" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
@@ -48,16 +45,17 @@ const Technologies = () => (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
-        <DiZend size="3rem" />
+      <ListItem>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Framework</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like Figma
+            React <br />
+            Astro <br />
+            Tailwind
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
     </List>
   </Section>
 );
