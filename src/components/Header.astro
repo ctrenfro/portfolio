@@ -1,0 +1,69 @@
+---
+import Hamburger from "./Hamburger.astro";
+---
+
+<Hamburger />
+
+<div class="fixed left-0 top-0 w-[60%] md:w-0 h-full mobileNav">
+  <ul class="p-4 uppercase mobileNav-links font-bold text-white">
+    <h1
+      class="w-full text-2xl sm:text-3xl text-white p-4 font-bold relative z-10"
+    >
+      Christopher Renfro
+    </h1>
+    <a href="#about" class="p-4 border-b border-gray-600 cursor-pointer"
+      >About</a
+    >
+    <a href="#projects" class="p-4 border-b border-gray-600 cursor-pointer"
+      >Projects</a
+    >
+    <a href="#technologies" class="p-4 border-b border-gray-600 cursor-pointer"
+      >Technologies</a
+    >
+  </ul>
+</div>
+
+<style>
+  .mobileNav-links {
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    height: 0;
+  }
+
+  .expanded {
+    --tw-bg-opacity: 1;
+    background: #2f3440;
+    --tw-border-opacity: 1;
+    border-right: 1px solid rgb(17 24 39 / var(--tw-border-opacity));
+    display: static;
+  }
+
+  .expanded-links,
+  .expandedTitle {
+    opacity: 1;
+    height: auto;
+    transition: 1s ease-in;
+  }
+
+  @media screen and (min-width: 636px) {
+    .mobileNav-links {
+      opacity: 0;
+      height: 0;
+    }
+
+    .nav-links {
+      margin-left: 5em;
+      width: auto;
+      background: none;
+
+      opacity: 1;
+      height: auto;
+      flex-direction: row;
+    }
+
+    .nav-links a {
+      padding: 15px 10px;
+    }
+  }
+</style>

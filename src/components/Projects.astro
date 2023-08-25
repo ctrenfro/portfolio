@@ -1,0 +1,11 @@
+---
+import { projects } from "./constants";
+
+
+---
+
+<div class="max-w-[800px]">
+  {projects.map({ name, id, image, description, tags, github, site })=>(
+    <h1>{name}</h1>
+  )}
+</div>
