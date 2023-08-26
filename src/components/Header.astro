@@ -4,7 +4,7 @@ import Hamburger from "./Hamburger.astro";
 
 <Hamburger />
 
-<div class="fixed left-0 top-0 w-[60%] md:w-0 h-full mobileNav">
+<div class="fixed left-0 top-0 md:w-0 h-full mobileNav">
   <ul class="p-4 uppercase mobileNav-links font-bold text-white">
     <h1
       class="w-full text-2xl sm:text-3xl text-white p-4 font-bold relative z-10"
@@ -24,6 +24,11 @@ import Hamburger from "./Hamburger.astro";
 </div>
 
 <style>
+  .mobileNav {
+    width: 0;
+    margin: 0;
+    padding: 0;
+  }
   .mobileNav-links {
     display: flex;
     flex-direction: column;
@@ -37,6 +42,7 @@ import Hamburger from "./Hamburger.astro";
     --tw-border-opacity: 1;
     border-right: 1px solid rgb(17 24 39 / var(--tw-border-opacity));
     display: static;
+    width: 60%;
   }
 
   .expanded-links,
@@ -47,23 +53,5 @@ import Hamburger from "./Hamburger.astro";
   }
 
   @media screen and (min-width: 636px) {
-    .mobileNav-links {
-      opacity: 0;
-      height: 0;
-    }
-
-    .nav-links {
-      margin-left: 5em;
-      width: auto;
-      background: none;
-
-      opacity: 1;
-      height: auto;
-      flex-direction: row;
-    }
-
-    .nav-links a {
-      padding: 15px 10px;
-    }
   }
 </style>
