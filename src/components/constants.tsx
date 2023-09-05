@@ -1,7 +1,8 @@
 export const projects = [
   {
     name: "Zest",
-    description: "Recipe app to find you favorite recipes",
+    description:
+      "Recipe app to find your favorite recipes using the Edamam recipe api.",
     image: "/assets/recipeApp.png",
     tags: ["React", "Api", "Node", "Express"],
     site: "http://zest.herokuapp.com/",
@@ -10,7 +11,7 @@ export const projects = [
   },
   {
     name: "Stream Central",
-    description: "A live streaming platform",
+    description: "Home page for an independent live streaming platform.",
     image: "/assets/streamCentral.png",
     tags: ["Typescript", "React"],
     site: "https://ctrenfro.github.io/streamCentral/",
@@ -19,7 +20,8 @@ export const projects = [
   },
   {
     name: "Big Data Inc",
-    description: "Data Analytics platform",
+    description:
+      "Home page for a data analytics platform. My first project utlizing astro.",
     image: "/assets/bigdatainc.png",
     tags: ["Astro", "Tailwind", "Typescript", "React"],
     site: "https://big-data-oxrtxac5n-ctrenfro.vercel.app/",

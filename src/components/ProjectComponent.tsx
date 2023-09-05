@@ -16,7 +16,7 @@ const ProjectComponent = (props: ProjectProps) => {
       <div>
         <a href={props.site} target="_blank">
           <img
-            className=" max-w-[200px] sm:max-w-[240px] md:max-w-[280px] rounded-lg mt-6 ml-1 hover:border-teal-400 border-4 border-[#13151a]"
+            className=" max-w-[200px] sm:max-w-[240px] md:max-w-[280px] rounded-lg mt-12 sm:mt-6 ml-1 hover:border-teal-400 border-4 border-[#13151a]"
             src={props.image}
             alt=""
           />
