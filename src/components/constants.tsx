@@ -5,8 +5,8 @@ export const projects = [
       "Recipe app to find your favorite recipes using the Edamam recipe api.",
     image: "/assets/recipeApp.png",
     tags: ["React", "Api", "Node", "Express"],
-    site: "http://zest.herokuapp.com/",
-    github: "https://github.com/ctrenfro/zest",
+    site: "https://zest1-db55533a38ba.herokuapp.com/",
+    github: "https://github.com/ctrenfro/zest2",
     id: 0,
   },
   {
